@@ -23,3 +23,5 @@ class AbstractWrapper(object):
     @abstractmethod
     def initial_decision_variable_value_estimates(self):
       pass
+    def report(self):
+      pass
